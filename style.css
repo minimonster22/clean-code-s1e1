@@ -43,16 +43,16 @@
 }
 
 .editor-item__list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .editor-item__list__item, .editor-item__title {
-  list-style:none;
+  list-style: none;
 }
 
 .input-checkbox, .btn, .input-text{
-  outline:none;
+  outline: none;
 }
 
 .btn {
@@ -155,14 +155,14 @@
 
 /* Edit Task */
 .input-text--hidden {
-  display:none
+  display: none
 }
 
 .edit-mode .input-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .label {
-  display:none;
+  display: none;
 }
