@@ -5,20 +5,20 @@
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body class="page">
-  <div class="header">
+  <header class="header">
     <img class="header__image" src="./eisenhower-matrix.jpg">
     <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </div>
-  <div class="editor">
-    <p class="editor-item add-item">
-      <label class="editor-item__title title-add-item" for="add" >Add Item</label>
+  </header>
+  <main class="editor">
+    <section class="editor-item add-item">
+      <h1><label class="editor-item__title title-add-item" for="add" >Add Item</label></h1>
       <div class="editor-item__input">
         <input class="input-text input-text-add" id="add" type="text">
         <button class="btn add-btn">Add</button>
       </div>
-    </p>
-    <div class="editor-item todo">
-      <h3 class="editor-item__title">Todo</h3>
+    </section>
+    <section class="editor-item todo">
+      <h2 class="editor-item__title">Todo</h2>
       <ul class="editor-item__list" id="editor-item__list--unfinished">
         <li class="editor-item__list__item">
           <input class="input-checkbox" type="checkbox" >
@@ -39,9 +39,9 @@
           </button>
         </li>
       </ul>
-    </div>
-    <div class="editor-item completed">
-      <h3 class="editor-item__title title-completed">Completed</h3>
+    </section>
+    <section class="editor-item completed">
+      <h2 class="editor-item__title title-completed">Completed</h2>
       <ul class="editor-item__list" id="editor-item__list--completed">
         <li class="editor-item__list__item">
           <input class="input-checkbox input-checkbox--checked" type="checkbox" checked>
@@ -53,8 +53,8 @@
           </button>
         </li>
       </ul>
-    </div>
-  </div>
+    </section>
+  </main>
   <script src="app.js"></script>
 </body>
 </html>
